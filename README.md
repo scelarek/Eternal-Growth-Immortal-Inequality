@@ -21,7 +21,10 @@ The data for this project comes primarily from **Gapminder**, which provides a p
 The data underwent a rigorous cleaning process to ensure accuracy and reliability. Techniques such as imputation, filling, trimming, and column removal were used to handle missing data and make it more suitable for analysis.
 
 ## 👓 Exploratory Data Analysis (EDA)
-The EDA phase involved assessing various economic indicators to determine patterns, correlations, and insights. 
+The EDA phase involved assessing various economic indicators to determine patterns, correlations, and insights. Here is a quick sample of one of the data visualizations:
+
+![image](https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/dfc26ba0-6115-445b-8d66-5e8615380050)
+
 
 ## 📈 Results and Performance
 The project's findings were exploratory in nature as no models were built. However there were four key correlations observations: 
