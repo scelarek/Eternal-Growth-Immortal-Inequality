@@ -1,7 +1,7 @@
 <div align="center">
 
 # Eternal Growth, Immortal Inequality
-<img src="" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="80" height="80"> 
+<img src="https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/blob/main/Data/0_2.png" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="150" height="150"> 
 
 ## **By Sam Celarek**
 </div>
