@@ -1,7 +1,7 @@
 <div align="center">
 
 # Eternal Growth, Immortal Inequality
-<img src="INSERT_YOUR_PROJECT_IMAGE_LINK_HERE" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="80" height="80"> 
+<img src="" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="80" height="80"> 
 
 ## **By Sam Celarek**
 </div>
@@ -50,7 +50,7 @@ The project's findings were exploratory in nature as no models were built. Howev
 - **[PDF of Notebook](/Sam_Celarek_eternal_growth_immortal_inequality.pdf)**
 - **[Data Source: Gapminder](https://www.gapminder.org)**
 
-Thank you for your interest in **Eternal Growth, Immortal Inequality**. For any further inquiries or insights, please feel free to reach out through the GitHub repository or at your_email@gmail.com.
+Thank you for your interest in **Eternal Growth, Immortal Inequality**. For any further inquiries or insights, please feel free to reach out through the GitHub repository or at scelarek@gmail.com.
 
 <div align="center">
 
