@@ -18,11 +18,11 @@ The data for this project comes primarily from **Gapminder**, which collects dat
 ## 🧹 Data Wrangling
 The six different data sets were joined on the year and country columns. There were many missing values which eventually led me to trimming the time span over which the relevant analysis covered. 
 
-## Feature Engineering
+## 🛠️ Feature Engineering
 To better explore the trends of countries that are the most rich versus the most poor, I created categories for each country based on which quintile they resided in on average over the past 200 years. For example, each country was assigned a 'GDP quintile' based on whether it had been amongst the 80-100th, 60-80th, 40-60th, etc... percentile of GDP for countries over the past 200 years. I then would aggregate each quintiles scores and look at the quintiles trends over time. 
 
-## 👓 Exploratory Data Analysis (EDA)
-The EDA phase involved scatter plots, quintile aggregated line plots , quintile aggregated bar charts, and correlation heatmaps between each of the econometric indicators to explore patterns and associations. Here is a quick sample of the relationship between GDP and some of the wellfare metrics:
+## 📶 Exploratory Data Analysis (EDA)
+The EDA phase involved scatter plots, line plots for each quintile, bar charts for each quintile, and correlation heatmaps between each of the econometric indicators. Here is a quick sample of the exploration of the relationship between GDP and the wellfare metrics of happiness, murder rate, and freedom (lower is better):
 
 ![image](https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/74cef867-0ff3-47fd-a34c-a2f886f28db8)
 ![image](https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/3df651dd-400b-4643-b965-d7eaf2c8730a)
@@ -33,7 +33,7 @@ And here is a final correlation heatmap:
 ![image](https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/7b9e9130-2bfa-41ad-8a9a-9d51123e77df)
 
 
-## 📈 Results and Performance
+## 📈 Analysis
 The project's findings were exploratory in nature as no tests of statistical significance were conducted. However there were four key correlations observations: 
 
 1. **The Welfare of Nations**:
