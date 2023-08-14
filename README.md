@@ -1,14 +1,17 @@
 <div align="center">
 
-# Eternal Growth, Immortal Inequality
+<h1>Eternal Growth, Immortal Inequality</h1>
 <img src="https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/blob/main/Data/Logo%20for%20Economics.png" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="150" height="150"> 
 
-## **By Sam Celarek**
+<br>
+<h2><strong>By Sam Celarek</strong></h2>
+</div>
+
+<div align="center" style="background-color: #CCCCD6; padding: 15px; border-radius: 10px;">
+"How Does a Country's Wealth and Inequality Shape Human Flourishing?"
 </div>
 
 ## 🎯 Project Overview
-<div align="center" style="background-color: #f5f5f5; padding: 15px; border-radius: 10px;">
-</div>
 
 By analyzing econometric data from Gapminder, this project aims to explore the relationship between a countries' wealth, inequality, and human flourishing. To do this I used bivariate data exploration and look at the trends of countries in each quintile over time. 
 
@@ -24,14 +27,21 @@ To better explore the trends of countries that are the most rich versus the most
 ## 📶 Exploratory Data Analysis (EDA)
 The EDA phase involved scatter plots, line plots for each quintile, bar charts for each quintile, and correlation heatmaps between each of the econometric indicators. Here is a quick sample of the exploration of the relationship between GDP and the wellfare metrics of happiness, murder rate, and freedom (lower is better):
 
-![image](https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/74cef867-0ff3-47fd-a34c-a2f886f28db8)
-![image](https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/3df651dd-400b-4643-b965-d7eaf2c8730a)
-![image](https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/da66e762-030e-4328-af54-118d543ecb74)
+<div>
 
-And here is a final correlation heatmap:
+   <img src="https://github.com/scelarek/scelarek.github.io/assets/115444760/fd4a32e8-dc95-4ef7-8da4-7b4281c3ab07" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300">  
 
-![image](https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/7b9e9130-2bfa-41ad-8a9a-9d51123e77df)
+   <img src="https://github.com/scelarek/scelarek.github.io/assets/115444760/904306d0-6107-4433-ac77-fe3e84b58525" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300"> 
+   <img src="https://github.com/scelarek/scelarek.github.io/assets/115444760/e420d2f5-0201-4c9f-b216-a24c134f7a10" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300"> 
+     
+</div>
 
+<div align="center">
+
+   <h3> Correlation Heatmap of All Metrics: </h3>
+   <img src="https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/7b9e9130-2bfa-41ad-8a9a-9d51123e77df" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality"> 
+
+</div>
 
 ## 📈 Analysis
 The project's findings were exploratory in nature as no tests of statistical significance were conducted. However there were four key correlations observations: 
@@ -51,20 +61,19 @@ The project's findings were exploratory in nature as no tests of statistical sig
    - Economic inequality (Gini coefficient) weakly correlates with decreased happiness and freedom.
    - There's a moderate correlation between high inequality and increased murder rates, but this is based on sparse data.
 
-## 💡 Other Resources
-
-- **[Jupyter Notebook](/eternal_growth_immortal_inequality.ipynb)**
-- **[PDF of Notebook](/Sam_Celarek_eternal_growth_immortal_inequality.pdf)**
-- **[Data Source: Gapminder](https://www.gapminder.org)**
-
 Thank you for your interest in **Eternal Growth, Immortal Inequality**. For any further inquiries or insights, please feel free to reach out through this GitHub repository or at scelarek@gmail.com.
 
 <div align="center">
 
-**Best Wishes,**  
-*Sam Celarek*
+Best Wishes, <br>
+Sam Celarek
 
 </div>
 
 ---
 
+## 💡 Other Resources
+
+- **[Jupyter Notebook](/eternal_growth_immortal_inequality.ipynb)**
+- **[PDF of Notebook](/Sam_Celarek_eternal_growth_immortal_inequality.pdf)**
+- **[Data Source: Gapminder](https://www.gapminder.org)**
