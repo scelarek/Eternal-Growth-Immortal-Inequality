@@ -1,11 +1,12 @@
 <div align="center">
 
 <h1>Eternal Growth, Immortal Inequality</h1>
-<img src="https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/blob/main/Data/Logo%20for%20Economics.png" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="150" height="150"> 
 
-<br>
+
 <h2><strong>By Sam Celarek</strong></h2>
 </div>
+
+<img src="https://github.com/scelarek/scelarek.github.io/blob/master/images/Logo%20for%20Economics.png" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="150" height="150"> 
 
 <div align="center" style="background-color: #CCCCD6; padding: 15px; border-radius: 10px;">
 "How Does a Country's Wealth and Inequality Shape Human Flourishing?"
@@ -27,24 +28,38 @@ To better explore the trends of countries that are the most rich versus the most
 ## 📶 Exploratory Data Analysis (EDA)
 The EDA phase involved scatter plots, line plots for each quintile, bar charts for each quintile, and correlation heatmaps between each of the econometric indicators. Here is a quick sample of the exploration of the relationship between GDP and the wellfare metrics of happiness, murder rate, and freedom (lower is better):
 
-<div>
 
-   <img src="https://github.com/scelarek/scelarek.github.io/assets/115444760/fd4a32e8-dc95-4ef7-8da4-7b4281c3ab07" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300">  
-
-   <img src="https://github.com/scelarek/scelarek.github.io/assets/115444760/904306d0-6107-4433-ac77-fe3e84b58525" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300"> 
-   <img src="https://github.com/scelarek/scelarek.github.io/assets/115444760/e420d2f5-0201-4c9f-b216-a24c134f7a10" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300"> 
-     
+<div align="center">
+<img align="center" src="https://github.com/scelarek/scelarek.github.io/assets/115444760/fd4a32e8-dc95-4ef7-8da4-7b4281c3ab07" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300">  
 </div>
+
+There appears to be a fairly robust correlation with increased GDP and increased happiness, although it is notable that above a GDP of $50,000 this correlation appears to weaken. It is also notable that many of the happiness scores lie above 30 and below 80. This seems to imply some type of subjective self-evaluation cutoffs that people often don't rate themselves beyond.  
+
+<div align="center">
+<img align="center" src="https://github.com/scelarek/scelarek.github.io/assets/115444760/904306d0-6107-4433-ac77-fe3e84b58525" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300"> 
+</div>
+
+Here one can observe that the freedom index of countries in each quintile of GDP have remained fairly constant over time with the biggest increases in average freedom coming from the 0-20th and 60-80th quintiles. It also would appear that there has been some slight loss in average freedom since 2008 across all quintiles.
+
+<div align="center">
+<img align="center" src="https://github.com/scelarek/scelarek.github.io/assets/115444760/5c470243-9205-455b-ad6e-07b7f9f735db" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality" width="300" height="300"> 
+</div>
+
+This graph seems to strongly imply that more egalitarian countries are associated with a lower murder rate, however it is difficult to make this conclusion due to the lack of data from countries in the higher quintiles of inequality. 
+
 
 <div align="center">
 
    <h3> Correlation Heatmap of All Metrics: </h3>
-   <img src="https://github.com/scelarek/Eternal-Growth-Immortal-Inequality/assets/115444760/7b9e9130-2bfa-41ad-8a9a-9d51123e77df" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality"> 
-
+   <img src="https://github.com/scelarek/scelarek.github.io/assets/115444760/2e53793e-25a1-4090-8961-0327a44671c6" title="Eternal Growth, Immortal Inequality" alt="Eternal Growth, Immortal Inequality"> 
 </div>
 
+
+The strongest correlation between individual countries econometrics is happiness and gdp with a r = 0.74. Other stand out metrics are a strong positive correlation of CO2 and GDP (r=0.7), a weak positive correlation between murder rate and inequality (r=0.42), and inverse correlation between freedom and happiness (r=-0.53).  
+
+
 ## 📈 Analysis
-The project's findings were exploratory in nature as no tests of statistical significance were conducted. However there were four key correlations observations: 
+The project's findings were exploratory in nature as no tests of statistical significance were conducted. However there were four key correlations observations from the above visualizations and the analysis performed in the notebook beyond what is presented here: 
 
 1. **The Welfare of Nations**:
    - There's a positive correlation between GDP per capita and happiness.
